@@ -98,3 +98,37 @@ body {
   left:30px;
 
 }
+.card-layout .name {
+  position:relative;
+  left:100px;
+  bottom:15px;
+  color:hsl(300, 24%, 96%)
+}
+
+.card-layout .job {
+  position:relative;
+  left:100px;
+  bottom:25px;
+  color:hsl(333, 80%, 67%);
+  font-size: 10px;
+}
+
+.card-layout .description {
+  width:230px;
+  height:200px;
+  color:hsl(300, 24%, 96%);
+  font-size: 10px;
+  padding-left: 30px;
+}
+
+#postion1 {
+  postion:relative;
+  left:575px;
+  bottom:500px;
+}
+
+#postion2 {
+  position: relative;
+  left:1000px;
+  bottom:650px;
+}

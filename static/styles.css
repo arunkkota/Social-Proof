@@ -1,0 +1,13 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+.back-img-top {
+  position: absolute;
+}
+.back-img-bottom {
+  position: absolute;
+}
+
+
+
+font-family: 'Spartan', sans-serif;

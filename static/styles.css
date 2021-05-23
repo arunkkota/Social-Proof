@@ -132,3 +132,61 @@ body {
   left:1000px;
   bottom:650px;
 }
+
+
+@media only screen and (max-width: 375px) {
+
+  .back-img-bottom {
+    position: absolute;
+    left:350px;
+    bottom:-1900px;
+  }
+
+  .adv-box {
+    width:400px;
+    height:200px;
+    position:relative;
+    left:450px;
+    bottom:250px;
+  }
+
+  .rating-one {
+    postion:static;
+    left:450px;
+    bottom: 150px;
+  }
+
+  .rating-two {
+    postion:static;
+    left:450px;
+    bottom: 100px;
+  }
+
+  .rating-three {
+    postion:static;
+    left:450px;
+    bottom: 50px;
+  }
+
+  .card-layout {
+    position: relative;
+    left:450px;
+    bottom:0px;
+    top:100px;
+  }
+
+  #postion1 {
+    position:relative;
+    top:200px;
+    left:450px;
+  }
+
+  #postion2 {
+    postion:relative;
+    top:320px;
+    left:450px;
+
+
+  }
+
+}

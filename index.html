@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="static/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
@@ -18,6 +19,8 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      position:absolute;
+      bottom:-1800px;
     }
 
     .attribution a {
@@ -27,56 +30,57 @@
 </head>
 
 <body>
-  <div>
-    <div class=".back-img-top ">
-      <img src="images/bg-pattern-top-desktop.svg" />
-    </div>
-    <div class="back-img-bottom">
-      <img src="images/bg-pattern-bottom-desktop.svg" />
-    </div>
+  <container>
     <div>
-      <div class="adv-box">
-        <h1>10,000+ of our users love our products.</h1>
-        <p>We only provide great products combined with excellent customer service.
-          See what our satisfied customers are saying about our services.</p>
+      <div class=".back-img-top ">
+        <img src="images/bg-pattern-top-desktop.svg" />
       </div>
-      <div class="rating-one">
-        <p><img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="" />
-          <img src="" />
-          Rated 5 Stars in Reviews
-        </p>
+      <div class="back-img-bottom">
+        <img src="images/bg-pattern-bottom-desktop.svg" />
       </div>
-      <div class="rating-two">
-        <p><img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="" />
-          <img src="" />
-          Rated 5 Stars in Report Guru
-        </p>
+      <div>
+        <div class="adv-box">
+          <h1>10,000+ of our users love our products.</h1>
+          <p>We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.</p>
+        </div>
+        <div class="rating-one">
+          <p><img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="" />
+            <img src="" />
+            Rated 5 Stars in Reviews
+          </p>
+        </div>
+        <div class="rating-two">
+          <p><img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="" />
+            <img src="" />
+            Rated 5 Stars in Report Guru
+          </p>
+        </div>
+        <div class="rating-three">
+          <p><img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="images/icon-star.svg" />
+            <img src="" />
+            <img src="" />
+            Rated 5 Stars in BestTech
+          </p>
+        </div>
       </div>
-      <div class="rating-three">
-        <p><img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="images/icon-star.svg" />
-          <img src="" />
-          <img src="" />
-          Rated 5 Stars in BestTech
-        </p>
-      </div>
-    </div>
 
-    <div class="card-layout">
-      <img src="images/image-colton.jpg" />
+      <div class="card-layout">
+        <img src="images/image-colton.jpg" />
         <div>
           <p class="name">Colton Smith</p>
           <p class="job">Verified Buyer</p>
@@ -86,10 +90,10 @@
           Not only did they find the original order, but we also received it in time.
           Excellent!"
         </p>
-    </div>
+      </div>
 
-    <div class="card-layout" id="postion1">
-      <img src="images/image-irene.jpg" />
+      <div class="card-layout" id="postion1">
+        <img src="images/image-irene.jpg" />
         <div>
           <p class="name">Irene Roberts</p>
           <p class="job">Verified Buyer</p>
@@ -98,10 +102,10 @@
           Customer service is always excellent and very quick turn around. Completely
           delighted with the simplicity of the purchase and the speed of delivery."
         </p>
-    </div>
+      </div>
 
-    <div class="card-layout" id="postion2">
-      <img src="images/image-anne.jpg" />
+      <div class="card-layout" id="postion2">
+        <img src="images/image-anne.jpg" />
         <div>
           <p class="name">Anne Wallace</p>
           <p class="job">Verified Buyer</p>
@@ -110,10 +114,9 @@
           "Put an order with this company and can only praise them for the very high
           standard. Will definitely use them again and recommend them to everyone!"
         </p>
+      </div>
     </div>
-
-  </div>
-
+  </container>
 
   <div class="attribution">
     Challenge by
